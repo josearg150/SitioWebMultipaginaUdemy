@@ -41,20 +41,30 @@
     <main>
         <header>
             <div class="container">
-                <h1>La firma</h1>
+                <h1>Contacto</h1>
             </div>
         </header>
         <article id="pages" class="container">
             <section>
-                <h2>Historia</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur quam ullam necessitatibus fugit sapiente? Nobis voluptatibus natus eveniet facere ut quisquam molestias tenetur id! Omnis nisi quibusdam expedita vero dolorem!</p>
-                <p>Nesciunt velit corrupti dignissimos iure cupiditate id praesentium, temporibus sapiente reiciendis sed architecto ipsum fugit commodi tempora magnam atque hic provident. Quos asperiores iusto illum id reiciendis, inventore ratione mollitia!</p>
-                <p>Placeat sapiente, ratione, amet inventore labore soluta odit quae aut necessitatibus ad distinctio nulla reiciendis odio repellendus blanditiis nisi laboriosam tempora sit ipsa maiores? Distinctio odit quae repellat laboriosam quas.</p>
+                <h2>Formulario de contacto</h2>
+                <p>Para comunicarse con nostros rellene el siguiente formulario, <br>campos marcados con asterisco <span class="asterisco">*</span> son requeridos</p>  
 
-                <h2>Principios</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, illo voluptate saepe aspernatur natus minus incidunt assumenda ea tenetur eos dignissimos accusamus sequi libero consequatur suscipit vero ratione consectetur non.</p>
-                <p>Explicabo molestiae accusamus quasi dolor temporibus veritatis quia nisi, commodi beatae, aperiam aspernatur eaque? Recusandae dolore sunt animi repellendus facere eius magnam! Voluptate, error! Reiciendis est aut iure architecto facere.</p>
-                <p>Omnis animi minima sint est excepturi maiores impedit eos, perspiciatis voluptatem aut, dolorem commodi similique! Rerum quisquam cupiditate laudantium repellat debitis totam necessitatibus saepe accusantium architecto, minus dolorum, ratione veniam.</p>
+                <form action="" method="POST">
+                    <label for="nombre">Nombre <span class="asterisco">*</span>:</label>
+                    <input type="text" id="nombre" required>
+                    <label for="apellido">Apellido <span class="asterisco">*</span>:</label>
+                    <input type="text" id="apellido" required>
+                    <label for="email">Correo electronico <span class="asterisco">*</span>:</label>
+                    <input type="email" id="email" required>
+                    <label for="telefono">Telefono<span class="asterisco">*</span>:</label>
+                    <input type="text" id="telefono" required>
+                    <label for="movil">Telefono movil<span class="asterisco">*</span>:</label>
+                    <input type="text" id="movil" required>
+                    <label for="comentario">Diganos como podemos ayudarlo<span class="asterisco">*</span>:</label>
+                    <textarea name="comentario" id="comentario" cols="30" rows="10" required></textarea>
+
+                    <input type="submit" value="enviar formulario">
+                </form> 
             </section>
             <aside>
                 <h3>Casos de estudio</h3>
