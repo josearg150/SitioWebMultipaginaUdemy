@@ -1,0 +1,124 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*Estilos generales*/
+html, body {
+    height: 100%
+}
+
+/* Modificar el modelo de cajas de css*/
+html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*, *::before, *:after{
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+}
+
+/* Resetear margenes y padding*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.09rem;
+}
+
+.container {
+    width: 90%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+/*barra de navegacion*/
+#navbar{
+    background-color: #0b1245;
+ }
+
+#navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-nav{
+    display: flex;
+    list-style: none;
+    font-family: "Lato","sans-serif";
+}
+
+#main-nav li a{
+    color:#FFF;
+    text-decoration: none;
+    padding: 25px 0.90em;
+    display: inline-block;
+}
+
+#main-nav li:last-child {
+    color:#FFA600;
+    padding: 25px 0.90rem;
+
+}
+
+#main-nav li a:hover{
+    background-color: #060829;
+}
+/*Pie de pagina*/
+footer {
+    background-color: #121018;
+}
+
+#pieDePagina{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+footer h3{
+    color: #9f9f9f;
+    font-size: 0.90rem;
+    text-transform: uppercase;
+}
+
+footer ul {
+    margin: 20px 0;
+}
+
+footer li{
+    list-style: none;
+    padding: 5px 0;
+}
+
+footer ul li a{
+    color: #9f9f9f;
+    text-decoration: none;
+    font-size: 0.88rem;
+}
+
+footer a img{
+    width: 160px;
+} 
+
+#social{
+    text-align: center;
+}
+
+#social .fab{
+    color: #FFF;
+    margin-left: 1em;
+    font-size: 1.3rem;
+} 
+
+#copyright{
+    color: #9f9f9f;
+    text-align: center;
+    font-size: 0.8rem;
+    border-top: 1px solid #272323;
+    padding: 12px 0;
+}
