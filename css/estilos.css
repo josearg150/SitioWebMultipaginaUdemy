@@ -70,6 +70,7 @@ p{
     width: 250px;
     text-align: center;
     text-decoration: none;
+    color: #000;
 }
 .transparent:hover{
     background-color: #ffa600;
@@ -163,7 +164,7 @@ footer a img{
 
 /*Estilos de la pagina de inicio */
 /*Seccion 1*/
-article > section:nth-child(1){
+article#home > section:nth-child(1){
     background-image: linear-gradient(rgba(26,26,50,0.9), rgba(26,26,50, 0.9)), url(../images/gavel-book.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -222,7 +223,9 @@ article > section:nth-child(1){
     flex-basis: 60%;
 }
 #seccionSegunda img{
-    width: 40%;
+    flex-basis: 40%;
+    max-width: 40%;
+    align-self: flex-start;
 }
 
 /*Seccion Tres*/
@@ -248,7 +251,7 @@ article>section:nth-child(3){
     padding: 80px 0 12px;
 }
 
-#article > section:nth-child(4),h2,p{
+#servicios{
     text-align: center;
 }
 
@@ -277,4 +280,64 @@ article>section:nth-child(3){
 .col p{
     font-size: 0.85rem;
     text-align: justify;
+}
+/*Seccion Cinco*/
+#article > section:nth-child(5){
+    background-color: #f3f1fe;
+    padding: 50px 0;
+}
+
+#seccionQuinta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Estilos de las paginas*/
+main header{
+    background-color: #e69807;
+    padding: 45px 0;
+    margin-bottom: 40px;
+}
+
+main header h1{
+    font-size: 1.90rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#pages{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 80px;
+}
+#pages section{
+    flex-basis: 70%;
+    padding-right: 2em;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+aside{
+    flex-basis: 30%;
+}
+
+aside h3{
+    background-color: #f3f1fe;
+    padding: 12px 0 12px 0.5em;
+    margin-bottom: 20px;
+    font-size: 1.20rem;
+    font-weight: 100;
+}
+aside ul{
+    list-style: none;
+    padding:0 0 30px 0.5em;
+}
+aside ul li a{
+    text-decoration: none;
+    line-height: 1.8;
+    color: #0b1245;
+}
+aside ul li a:hover{
+    text-decoration: underline;
 }
