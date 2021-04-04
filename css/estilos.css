@@ -341,3 +341,46 @@ aside ul li a{
 aside ul li a:hover{
     text-decoration: underline;
 }
+
+#socialMedia{
+    margin: 0 0 25px 0.5em;
+    font-size: 2.5rem;
+}
+
+#socialMedia i{
+    margin-right: 0.80em;
+    color: #0b1245;
+}   
+
+#boletin{
+    margin-left: 0.5em;
+}
+
+#boletin p {
+    font-size: 1rem;
+    margin-bottom: 12px;
+}
+
+#boletin label{
+    display: block;
+    font-size: 0.95rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+#correo{
+    display: block;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 12px;
+}
+
+#boletin input[type = "submit"]{
+    background-color: #008000;
+    display: inline-block;
+    padding: 10px 1em;
+    color: #fff;
+    border: none;
+    width: 150px;
+    font-size: 0.95rem;
+}
