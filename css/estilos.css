@@ -399,3 +399,43 @@ aside ul li a:hover{
     margin-bottom: 12px;
 }
 
+/*Estilos contacto*/
+
+form{
+    margin-right: 1em;
+}
+
+.asterisco{
+    color:#ff0000;
+}
+
+label{
+    display: block;
+    margin: 10px 0;
+    font-size: 0.98rem;
+
+}
+
+input[type ="text"], input[type = "email"]{
+    display: inline-block;
+    width: 100%;
+    height: 45px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+
+textarea#comentario{
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+input[type ="submit"]{
+    background-color: #008000;
+    display: inline-block;
+    padding: 10px 1em;
+    width: 100%;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+}
