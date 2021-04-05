@@ -64,7 +64,7 @@ p{
     color: #000;
 }
 .transparent{
-    display: block;
+    display: inline-block;
     border: 1px solid #ffa600;
     padding: 12px 1em;
     width: 250px;
@@ -313,7 +313,7 @@ main header h1{
 }
 #pages section{
     flex-basis: 70%;
-    padding-right: 2em;
+    padding-right: 1em;
     text-align: justify;
     padding-bottom: 30px;
 }
@@ -384,3 +384,18 @@ aside ul li a:hover{
     width: 150px;
     font-size: 0.95rem;
 }
+
+/*Estilos de areas de practica*/
+.row{
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 22px;
+}
+
+.row img {
+    float: left;
+    width: 55%;
+    margin-right: 1em;
+    margin-bottom: 12px;
+}
+
